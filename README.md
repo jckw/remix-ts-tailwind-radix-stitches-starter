@@ -1,6 +1,14 @@
 # Welcome to Remix!
 
-- [Remix Docs](https://remix.run/docs)
+This is a standard Remix start with a few extras:
+
+- [x] [Stitches](https://stitches.dev/)
+- [x] A good ESLint set up
+- [ ] [Tailwind](https://tailwindcss.com/)
+- [ ] [Radix UI examples](https://www.radix-ui.com/)
+
+
+Also check out the [Remix Docs](https://remix.run/docs)
 
 ## Deployment
 
