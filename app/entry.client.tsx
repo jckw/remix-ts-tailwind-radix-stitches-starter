@@ -1,8 +1,9 @@
-import globalStyles from '~/styles/globalStyles'
 import { hydrate } from 'react-dom'
 import { RemixBrowser, RemixBrowserProps } from 'remix'
 
-const EntryClient: React.FC<RemixBrowserProps> = (props) => {
+import globalStyles from '~/styles/globalStyles'
+
+function EntryClient(props: RemixBrowserProps) {
   globalStyles()
   return <RemixBrowser {...props} />
 }
